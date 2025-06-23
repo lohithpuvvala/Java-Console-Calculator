@@ -13,9 +13,9 @@ class Main {
             Scanner in = new Scanner(System.in);
 
             System.out.print("Enter an integer: ");
-            double a = in.nextInt();
+            double a = in.nextDouble();
             System.out.print("Enter an integer: ");
-            double b = in.nextInt(); in.nextLine();
+            double b = in.nextDouble(); in.nextLine();
             System.out.print("Enter the Operation to Perform:\n" +
                     " + : Addition Operation\n" +
                     " - : Subtraction Operation\n" +
@@ -50,7 +50,7 @@ class Main {
                     valid = false;
             }
 
-            if(valid) System.out.printf("Result: %.3f \n",result);
+            if(valid) System.out.printf("Result: %.3f %s %.3f = %.3f \n",a,op,b,result);
             System.out.println("To quit the program, enter 'q'. Press any other key to reload the calculator: ");
             char quit = in.next().charAt(0);
             if(quit == 'q' || quit == 'Q') break;
