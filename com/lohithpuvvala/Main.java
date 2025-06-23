@@ -38,13 +38,13 @@ class Main {
 
             //Selected Operation will be performed.
             switch (op) {
-                case "+": result = a + b; break;
-                case "-": result = a - b; break;
-                case "*": result = a * b; break;
+                case "+": result = addition(a,b); break;
+                case "-": result = subtraction(a,b); break;
+                case "*": result = multiplication(a,b); break;
                 case "/":
                     //check for division by zero.
                     if(b != 0) {
-                        result = a / b;
+                        result = division(a,b);
                     }else{
                         System.out.println("Error: Division by zero is not allowed.");
                         valid = false;
@@ -53,7 +53,7 @@ class Main {
                 case "%":
                     //check for modulus by zero.
                     if(b != 0){
-                    result = a % b;
+                    result = modulus(a,b);
                 }else{
                     System.out.println("Error: Modulus by zero is not allowed.");
                     valid = false;
@@ -72,5 +72,25 @@ class Main {
             char quit = in.next().charAt(0);
             if(quit == 'q' || quit == 'Q') break;// Exit the loop if user enters 'q' or 'Q'
         }
+    }
+
+    static double addition(double a, double b) {
+        return a + b;
+    }
+
+    static double subtraction(double a, double b) {
+        return a - b;
+    }
+
+    static double multiplication(double a, double b) {
+        return a * b;
+    }
+
+    static double division(double a, double b) {
+        return a / b;
+    }
+
+    static double modulus(double a, double b) {
+        return a % b;
     }
 }
