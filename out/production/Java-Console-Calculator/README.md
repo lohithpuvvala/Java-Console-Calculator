@@ -50,6 +50,12 @@ javac com/lohithpuvvala/Main.java
 ```bash
 java com.lohithpuvvala.Main
 ```
+---
+
+## 🛡️ Error Handling
+
+* **Division/Modulus by Zero**: The program gracefully displays an error instead of crashing.
+* **Invalid Operation Symbol**: Informs the user and skips result display.
 
 ---
 
@@ -74,39 +80,5 @@ Result: 12.500 + 3.500 = 16.000
 To quit the program, enter 'q'. Press any other key to reload the calculator: 
 ```
 
----
-
-## 🛡️ Error Handling
-
-* **Division/Modulus by Zero**: The program gracefully displays an error instead of crashing.
-* **Invalid Operation Symbol**: Informs the user and skips result display.
 
 ---
-
-## 🧠 Future Improvements (Ideas)
-
-* Add power (`^`) and square root (`√`) operations
-* Input history or log to file
-* GUI version using Swing or JavaFX
-* Unit tests using JUnit
-
----
-
-## 📄 License
-
-This project is open-source and free to use under the MIT License.
-
----
-
-## 👨‍💻 Author
-
-**Lohith Puvvala**
-Java Developer | MERN Stack Enthusiast | GCP Learner
-📧 \[Add your email or LinkedIn if desired]
-
-```
-
----
-
-Let me know if you'd like it converted into a GitHub project template or need a logo/badge section at the top.
-```

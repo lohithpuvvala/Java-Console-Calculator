@@ -50,6 +50,12 @@ javac com/lohithpuvvala/Main.java
 ```bash
 java com.lohithpuvvala.Main
 ```
+---
+
+## 🛡️ Error Handling
+
+* **Division/Modulus by Zero**: The program gracefully displays an error instead of crashing.
+* **Invalid Operation Symbol**: Informs the user and skips result display.
 
 ---
 
@@ -74,11 +80,5 @@ Result: 12.500 + 3.500 = 16.000
 To quit the program, enter 'q'. Press any other key to reload the calculator: 
 ```
 
----
-
-## 🛡️ Error Handling
-
-* **Division/Modulus by Zero**: The program gracefully displays an error instead of crashing.
-* **Invalid Operation Symbol**: Informs the user and skips result display.
 
 ---
